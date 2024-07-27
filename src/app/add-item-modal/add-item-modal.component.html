@@ -1,0 +1,19 @@
+<h3 mat-dialog-title>Add New Item</h3>
+<div mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Item name</mat-label>
+    <input matInput [(ngModel)]="Name">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Quantity</mat-label>
+    <input matInput [(ngModel)]="Quantity">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Price</mat-label>
+    <input matInput [(ngModel)]="Price">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()"  style="margin: 10px; background-color: red; padding: 5px; border:none; color: white;">Cancel</button>
+  <button mat-button (click)="onAddClick()" style="background-color: blue; padding: 5px; border:none; color: white;">Add</button>
+</div>

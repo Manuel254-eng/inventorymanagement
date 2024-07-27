@@ -1,0 +1,23 @@
+.inventory-container {
+    padding: 20px;
+  }
+  
+  .add-item-btn {
+    margin-bottom: 20px;
+  }
+  
+  .inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .inventory-table th, .inventory-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .inventory-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
